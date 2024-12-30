@@ -1,0 +1,26 @@
+{
+  "name": "rest-24",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@types/node": "latest",
+    "class-validator": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "node-libcurl": "latest",
+    "nodemon": "latest"
+  }
+}
